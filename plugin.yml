@@ -3,13 +3,13 @@ author: Tethered_, edited by VMPE Development Team
 description: A Extended Factions plugin. [beta-testing Branch]
 version: 1.0.0
 main: FactionsPro\FactionMain
-api: [4.0.0]
+api: [3.0.0, 3.0.0-ALPHA12, 4.0.0]
 softdepend: ["PureChat", "AntiSpamPro", "EssentialsPE", "EconomyAPI"]
 commands:
   f:
-    description: Faction commands.
+    description: Faction Commands
     permission: f.command
 permissions:
   f.command:
     default: true
-    description: "Allow use of all faction commands"
+    description: ""
